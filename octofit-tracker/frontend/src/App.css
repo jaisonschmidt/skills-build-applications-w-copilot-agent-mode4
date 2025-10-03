@@ -1,0 +1,103 @@
+
+
+body {
+  background: linear-gradient(135deg, #e3f0ff 0%, #f8e3ff 100%);
+  min-height: 100vh;
+}
+
+.main-title {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #6c2eb6;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.card {
+  margin-bottom: 2rem;
+  border: none;
+  box-shadow: 0 2px 8px rgba(108,46,182,0.08);
+}
+
+.card-title {
+  color: #6c2eb6;
+  font-weight: 600;
+}
+
+.table {
+  margin-top: 1rem;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table-primary {
+  background-color: #e3d6ff;
+  color: #6c2eb6;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #f3eaff;
+}
+
+.navbar {
+  margin-bottom: 2rem;
+  background: linear-gradient(90deg, #6c2eb6 0%, #a3e3ff 100%);
+  box-shadow: 0 2px 8px rgba(108,46,182,0.08);
+}
+
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  height: 40px;
+  margin-right: 12px;
+}
+
+.nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  margin-right: 8px;
+  transition: color 0.2s;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: #ffd700 !important;
+}
+
+.btn {
+  margin: 0.2rem;
+  background: linear-gradient(90deg, #6c2eb6 0%, #a3e3ff 100%);
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  box-shadow: 0 1px 4px rgba(108,46,182,0.08);
+}
+
+.btn-info {
+  background: linear-gradient(90deg, #6c2eb6 0%, #a3e3ff 100%);
+  color: #fff;
+  border: none;
+}
+
+.btn-info:hover {
+  background: linear-gradient(90deg, #a3e3ff 0%, #6c2eb6 100%);
+  color: #fff;
+}
+
+.form-control, .form-label {
+  margin-bottom: 0.5rem;
+}
+
+.modal-content {
+  border-radius: 0.5rem;
+  background: #f3eaff;
+}
