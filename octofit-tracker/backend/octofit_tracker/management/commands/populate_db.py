@@ -2,7 +2,7 @@ from django.core.management.base import BaseCommand
 from octofit_tracker.models import User, Team, Activity, Leaderboard, Workout
 
 class Command(BaseCommand):
-    help = 'Popular o banco de dados octofit_db com dados de teste'
+    help = 'Populate the octofit_db database with test data'
 
     def handle(self, *args, **options):
         # Limpar dados existentes
